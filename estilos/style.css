@@ -26,23 +26,36 @@ main {
     
 }
 
+section#fbcorretor {
+    position: absolute;
+    padding: 10px 5px;
+}
+
+section#fbcorretor img {
+    width: 100px;
+    border-radius: 50%; /*faz o arredondamento das imagens*/
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.301);
+
+}
+
 section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 627px;
-    width: 311px;
+    width: 280px;
+    height: 565px;
     
-    background-image: url(../imagens/frame-iphone.png);
+    
+    background-image: url(../imagens/frame-iphone-peq.png);
 }
 
 iframe#tela {
     position: relative;
-    top: 79px;
-    left: 22px;
-    width: 267px;
-    height: 472px;
+    top: 72px;
+    left: 20px;
+    width: 240px;
+    height: 425px;
 }
 
 section#redes-sociais {
@@ -51,7 +64,7 @@ section#redes-sociais {
 }
 
 section#redes-sociais img {
-    width: 60px;
+    width: 50px;
     margin: 10px;
     border-radius: 50%; /*faz o arredondamento das imagens*/
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.301);
